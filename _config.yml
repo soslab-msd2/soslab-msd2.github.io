@@ -130,10 +130,10 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Email"
+    - label: "Email" 
       icon: "fas fa-fw fa-envelope-square"
       url: mailto:msd2@soslab.co
-   - label: "Website"
+    - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://http://soslab.co/"
     - label: "Twitter"
