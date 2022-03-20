@@ -16,12 +16,12 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "WHOYAYAWHO"
+title                    : "MSD2"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : "WhoYAYAWho"
-description              : "기술 내용 정리"
-url                      : https://whoyayawho.github.io/
+subtitle                 : SOSLAB # site tagline that appears below site title in masthead
+name                     : "SOSLAB-MSD2"
+description              : "MSD2 팀 기술 정리"
+url                      : https://soslab-msd2.github.io/
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -102,18 +102,18 @@ analytics:
 
 # Site Author
 author:
- name             : "Whoyayawho"
+ name             : "MSD2팀"
  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
- bio              : "전문가는 아니라도 만들고 싶은건 만들 수 있는 개발자"
+ bio              : "Mechanical LiDAR & Solution Development 부서의 솔루션 담당"
  location         : "Korea"
  email            :
  links:
    - label: "Email"
      icon: "fas fa-fw fa-envelope-square"
-     url: mailto:sos1zzang@naver.com
+     url: mailto:msd2@soslab.co
    - label: "Website"
      icon: "fas fa-fw fa-link"
-     # url: "https://your-website.com"
+     url: "https://http://soslab.co/"
    - label: "Twitter"
      icon: "fab fa-fw fa-twitter-square"
      # url: "https://twitter.com/"
@@ -132,7 +132,10 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:sos1zzang@naver.com
+      url: mailto:msd2@soslab.co
+   - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://http://soslab.co/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
