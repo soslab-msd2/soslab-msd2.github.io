@@ -1,12 +1,16 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "GL (2D LiDAR)"
+    url: /gl
+  - title: "2D 맵핑 & 위치측위 & 경로생성"
+    url: /mapping_cartographer
+
+mapping_localization_pathplanning:
+  - title: 2D Mapping
+    url: /mapping_cartographer
+  - title: 2D Localization
+    url: /localization_cartographer
+  - title: Path Planning
+    url: /pathplanning
+
+
