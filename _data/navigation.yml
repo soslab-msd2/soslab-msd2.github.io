@@ -8,6 +8,11 @@ main:
 mapping_localization_pathplanning:
   - title: 2D Mapping
     url: /mapping_cartographer
+    children:
+      - title: "Installation"
+        url: /mapping_cartographer_install
+      - title: "Quick Start"
+        url: /mapping_cartographer_quickstart
   - title: 2D Localization
     url: /localization_cartographer
   - title: Path Planning
