@@ -1,5 +1,6 @@
 ---
 title: "GL (2D LiDAR)"
+permalink: /1_gl
 ---
 
 <br/>

@@ -1,8 +1,11 @@
 ---
 title: "2D LiDAR Localization"
 
+permalink: /2_localization_cartographer
+toc: false
+
 sidebar:
-    nav: "mapping_localization_pathplanning"
+    nav: "2_mapping_localization_pathplanning"
 ---
 
 

@@ -1,8 +1,11 @@
 ---
 title: "Path Planning"
 
+permalink: /2_pathplanning
+toc: false
+
 sidebar:
-    nav: "mapping_localization_pathplanning"
+    nav: "2_mapping_localization_pathplanning"
 ---
 
 

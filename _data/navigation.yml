@@ -1,21 +1,45 @@
 # main links
 main:
   - title: "GL (2D LiDAR)"
-    url: /gl
+    url: /1_gl
   - title: "2D 맵핑 & 위치측위 & 경로생성"
-    url: /mapping_cartographer
+    url: /2_install
+  - title: "기타"
+    url: /0_2d_obj_detect
 
-mapping_localization_pathplanning:
+0_others:
+  - title: 2D Object Detection
+    url: /0_2d_obj_detect
+  - title: Signage Touch Sensor
+    url: /0_signage
+  - title: Multi Robot Control
+    url: /0_multi_robot_control
+  - title: Robot Following Control
+    url: /0_robot_following_control
+
+2_mapping_localization_pathplanning:
+  - title: Installation
+    url: /2_install
   - title: 2D Mapping
-    url: /mapping_cartographer
+    url: /2_mapping_cartographer
     children:
-      - title: "Installation"
-        url: /mapping_cartographer_install
       - title: "Quick Start"
-        url: /mapping_cartographer_quickstart
+        url: /2_mapping_cartographer_quickstart
+      - title: "Customize"
+        url: /2_mapping_cartographer_customize
   - title: 2D Localization
-    url: /localization_cartographer
+    url: /2_localization_cartographer
+    children:
+      - title: "Quick Start"
+        url: /2_localization_cartographer_quickstart
+      - title: "Customize"
+        url: /2_localization_cartographer_customize
   - title: Path Planning
-    url: /pathplanning
-
+    url: /2_pathplanning
+    children:
+      - title: "Quick Start"
+        url: /2_pathplanning_quickstart
+      - title: "Customize"
+        url: /2_pathplanning_customize
+    
 
