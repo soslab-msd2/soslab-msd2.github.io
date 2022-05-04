@@ -22,7 +22,7 @@ sidebar:
 - 맵핑 또는 위치측위 노드 구동
 - 경로생성 노드 구동
 
-**"220413_mapping_localization_path_v1.0.0"** 프로그램은 **rosbag**을 포함하고 있으며, **rosbag**을 이용하여 쉽게 테스트 구동을 해볼 수 있습니다. 
+**"220504_mapping_localization_path_v1.0.1"** 프로그램은 **rosbag**을 포함하고 있으며, **rosbag**을 이용하여 쉽게 테스트 구동을 해볼 수 있습니다. 
 
 프로그램의 기본 설정으로 구동 시에 실행 노드와 퍼블리시/서브스크라이브 토픽은 아래와 같습니다. 
 
@@ -50,7 +50,7 @@ $ cd ${Project DIR}
 $ ros2 bag play rosbag2_2022_04_11-20_09_20
 ```
 
-> `${Project DIR}`는 **“220413_mapping_localization_path_v1.0.0”** 프로그램 폴더의 경로를 의미하며, 해당 폴더의 경로로 수정하여 실행함
+> `${Project DIR}`는 **"220504_mapping_localization_path_v1.0.1”** 프로그램 폴더의 경로를 의미하며, 해당 폴더의 경로로 수정하여 실행함
 {: .notice--info}
 
 `rosbag2_2022_04_11-20_09_20`은 이동체에 2D 라이다(GL310) 2대를 앞뒤로 설치하여 취득한 데이터 입니다.
@@ -69,7 +69,7 @@ $ cd ${Project DIR}/merge_two_laser_ros2-master/launch
 $ ros2 launch ./merge_two_laser_ros2.py
 ```
 
-> `${Project DIR}`는 **“220413_mapping_localization_path_v1.0.0”** 프로그램 폴더의 경로를 의미하며, 해당 폴더의 경로로 수정하여 실행함
+> `${Project DIR}`는 **"220504_mapping_localization_path_v1.0.1”** 프로그램 폴더의 경로를 의미하며, 해당 폴더의 경로로 수정하여 실행함
 {: .notice--info}
 
 **merge_two_laser_ros2** 노드는 두 개의 `sensor_msgs::msg::LaserScan` 데이터를 하나의 포인트클라우드 `sensor_msgs::msg::PointCloud2` 데이터로 병합합니다. 

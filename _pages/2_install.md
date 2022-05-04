@@ -9,7 +9,7 @@ sidebar:
 
 <br/>
 
-> - **"220413_mapping_localization_path_v1.0.0"** 프로그램을 기준으로 설명함
+> - **"220504_mapping_localization_path_v1.0.1"** 프로그램을 기준으로 설명함
 > - 해당 프로그램은 **2D 맵핑, 위치측위, 경로생성**을 위한 프로그램을 포함하고 있으며, `${ROS2 workspace}/src` 폴더에 설치 또는 복사하여 사용함
 {: .notice--info}
 
@@ -29,7 +29,7 @@ sidebar:
 
 ## (1) 2D 맵핑/위치측위 패키지
 
-- **220413_mapping_localization_path_v1.0.0 / mapping_2d_cartographer_ros2-master**
+- **220504_mapping_localization_path_v1.0.1 / mapping_2d_cartographer_ros2-master**
 
 ![]({{ site.url }}/assets/images/2/mapping/mapping_files.jpg){: .align-center} 
 
@@ -43,7 +43,7 @@ Cartographer를 기반으로 2D 라이다만을 이용한 맵핑/위치측위를
 
 ## (2) 경로생성 패키지
 
-- **220413_mapping_localization_path_v1.0.0 / path_planning_ros2-master**
+- **220504_mapping_localization_path_v1.0.1 / path_planning_ros2-master**
 
 ![]({{ site.url }}/assets/images/2/pathplanning/pathplanning_files.jpg){: .align-center} 
 
@@ -53,7 +53,7 @@ Cartographer를 기반으로 2D 라이다만을 이용한 맵핑/위치측위를
 
 ## (3) 라이다 데이터 융합 패키지
 
-- **220413_mapping_localization_path_v1.0.0 / merge_two_laser_ros2-master**
+- **220504_mapping_localization_path_v1.0.1 / merge_two_laser_ros2-master**
 
 ![]({{ site.url }}/assets/images/2/merge/merge_files.jpg){: .align-center} 
 
@@ -70,7 +70,7 @@ Cartographer를 기반으로 2D 라이다만을 이용한 맵핑/위치측위를
 아래 명령어를 실행하여 필요 요소를 설치합니다. 
 
 ```bash
-$ cd ${ROS2 workspace}/src/220413_mapping_localization_path_v1.0.0/mapping_2d_cartographer_ros2-master
+$ cd ${ROS2 workspace}/src/220504_mapping_localization_path_v1.0.1/mapping_2d_cartographer_ros2-master
 $ ./install_dependency.sh
 ```
 

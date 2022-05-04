@@ -100,3 +100,27 @@ GL 시리즈의 라이다 데이터 퍼블리시를 위해서는 [GL (2D LiDAR)]
 실시간 라이다 측정 데이터를 활용하면 사람 등의 움직이는 물체를 회피하여 경로생성을 할 수 있습니다.
 
 {% include video id="Kn4cYO7U0PE" provider="youtube" %}
+
+<br/>
+
+
+
+
+# 5. 경로생성 관련 파라미터
+
+|Name|Type|Range|Description|
+|:---:|:---:|:---:|---|
+|radius_of_wall_collision|double|0.0 ~ inf [m]|로봇이 맵과 충돌가능한 범위 설정|
+|radius_of_wall_expansion|double|0.0 ~ inf [m]|맵 기반 Cost map 최대 확장 범위 설정|
+|value_of_wall_expansion|int|0 ~ 254|맵 정보 기반 Cost map의 최소 값 설정|
+|number_of_wall_layers|int|0 ~ inf|맵의 확장 레이어의 개수 설정|
+|radius_of_obstacle_collision|double|0.0 ~ inf [m]|로봇이 실시간 라이다 기반 물체와 충돌가능한 범위 설정|
+|radius_of_obstacle_expansion|double|0.0 ~ inf [m]|실시간 라이다 기반 Cost map 최대 확장 범위 설정|
+|value_of_obstacle_expansion|int|0 ~ 254|라이다 정보 기반 Cost map 최소 값 설정|
+|number_of_obstacle_layers|int|0 ~ inf|라이다 정보의 확장 레이어 개수 설정|
+|radius_of_goal_detection|double|0 ~ inf [m]|목표점이 접근 불가 영역일 경우 주변 새로운 목표점 스캔 범위|
+|value_of_goal_detection|int|0 ~ inf|목표점이 접근 불가 영역일 경우 주변 새로운 목표점 설정 가능 Cost 값|
+|robot_length|double|0.0 ~ inf [m]|로봇의 한 변의 길이 설정(정사각형)|
+|threshold_wall|int|0 ~ 100|Cartographer에서 넘어온 맵정보를 필터링하는 역치 값|
+|threshold_path|double|0.0 ~ inf [m]|경로 업데이트 역치<br/>(기존 경로와 현재 경로의 길이 차이)|
+|cost_factor|double|0.0 ~ inf [m]|다익스트라 알고리듬에서 각 Cost가 반영되는 Weight|
