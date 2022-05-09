@@ -1,11 +1,11 @@
 ---
 title: "Signage Touch Sensor"
 
-permalink: /0_signage
+permalink: /3_signage
 toc: false
 
 sidebar:
-    nav: "0_others"
+    nav: "3_signage"
 ---
 
 

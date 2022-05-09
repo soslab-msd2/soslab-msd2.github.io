@@ -4,14 +4,23 @@ main:
     url: /1_gl
   - title: "2D 맵핑 & 위치측위 & 경로생성"
     url: /2_install
+  - title: "Signage Touch Sensor"
+    url: /3_signage
   - title: "기타"
     url: /0_2d_obj_detect
+
+3_signage:
+  - title: Signage Touch Sensor
+    url: /3_signage
+    children:
+      - title: "Installation"
+        url: /3_signage_install
+      - title: "Quick Start"
+        url: /3_signage_quickstart
 
 0_others:
   - title: 2D Object Detection
     url: /0_2d_obj_detect
-  - title: Signage Touch Sensor
-    url: /0_signage
   - title: Multi Robot Control
     url: /0_multi_robot_control
   - title: Robot Following Control
